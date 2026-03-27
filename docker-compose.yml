@@ -1,0 +1,12 @@
+services:
+  jupyter:
+    build: .
+    container_name: mspr_qualite_donnees
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/app/notebooks
+      - ./data:/app/data
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
