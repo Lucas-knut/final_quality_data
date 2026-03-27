@@ -11,8 +11,11 @@ plotly==5.22.0
 missingno==0.5.2
 
 # ── Automated profiling ─────────────────────────────────────────────────────
+# ydata-profiling 4.8.3 a un bug avec IPython >= 8.x (to_notebook_iframe)
+# On utilise IFrame() à la place dans le notebook, pas de downgrade nécessaire
 ydata-profiling==4.8.3
 ipywidgets==8.1.3
+ipython==8.12.3
 
 # ── Data quality rules ──────────────────────────────────────────────────────
 great-expectations==0.18.16

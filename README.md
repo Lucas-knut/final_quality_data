@@ -17,7 +17,7 @@ cd final_quality_data
 # 2. Build et lancement
 docker compose up --build
 
-# 3. Ouvrir JupyterLab dans le navigateur
+# 3. Ouvrir JupyterLab dans le navigateur ou utiliser l'extension Jupyter dans VSCode
 #    http://localhost:8888
 ```
 
@@ -34,7 +34,7 @@ final_quality_data/
 ├── requirements.txt                  # Dépendances Python
 ├── data/                             # Données brutes et traitées (gitignore recommandé)
 │   ├── 2021/                         # Téléchargés automatiquement par le notebook
-│   ├── 2022/
+│   ├── 2022/rm -rf data/2021 data/2022 data/2023
 │   ├── 2023/
 │   ├── caracteristiques_clean.csv    # Produit par le notebook
 │   ├── usagers_clean.csv

@@ -1,0 +1,14 @@
+# Données brutes et traitées (téléchargées automatiquement par le notebook)
+data/
+
+# Checkpoints Jupyter
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
