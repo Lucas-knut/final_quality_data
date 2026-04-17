@@ -1,6 +1,10 @@
 # Données brutes et traitées (téléchargées automatiquement par le notebook)
 data/
 
+# Fichiers de présentation (conservés en local uniquement)
+PRESENTATION.md
+SCRIPT.md
+
 # Checkpoints Jupyter
 notebooks/.ipynb_checkpoints/
 .ipynb_checkpoints/
